@@ -98,3 +98,47 @@
 ## 6. 회고
 
 - margin과 postion등 을 활용하면서 레이아웃을 보다 쉽게 구현 할 수 있게 되었다.
+
+## 4월 28일 수정사항
+
+- timeline은 시간의 흐름을 나타내기 때문에 순서가 상관없는 ul보다는 순서에따른 리스트를 나타내는 ol로 쓰는게 시멘틱하다고 생각해서 수정하였다.
+
+<details>
+<summary><b>코드보기</b></summary>
+<div markdown="1">
+
+```html
+<ol class="content-timeline">
+  <li>
+    <img class="img-photo" src="images/1.png" />
+    <p class="date-photo">1990</p>
+    <p class="version-photo">Photoshop 1.0</p>
+    <ul class="description-photo">
+      <li>최초버전 제작</li>
+    </ul>
+  </li>
+  <li>
+    <img class="img-photo" src="images/2.png" />
+    <p class="date-photo">1991</p>
+    <p class="version-photo">Photoshop 2.0</p>
+    <ul class="description-photo">
+      <li>채널 추가</li>
+      <li>윈도우를 지원하는 첫 버전</li>
+    </ul>
+  </li>
+  <li>
+    <img class="img-photo" src="images/3.png" />
+    <p class="date-photo">1994</p>
+    <p class="version-photo">Photoshop 3.0</p>
+    <ul class="description-photo">
+      <li>탭 형식의 팔레트 메뉴 추가</li>
+      <li>레이어 추가</li>
+    </ul>
+  </li>
+
+  }
+</ol>
+```
+
+</div>
+</details>
