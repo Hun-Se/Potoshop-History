@@ -4,7 +4,7 @@
 
 > 소개 : 빔캠프님 특강에서 과제로 주어졌던 History of Potoshop입니다.
 
-> 프로젝트 주소
+> 프로젝트 주소 : https://hun-se.github.io/Potoshop-History/
 
 </br>
 
